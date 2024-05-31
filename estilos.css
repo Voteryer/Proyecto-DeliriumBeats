@@ -1,0 +1,175 @@
+body {
+	background-image: url("../imgs/fondo_abstracto2.jpg");
+	background-size: 100%;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 400%;
+}
+
+/*audiowide font*/
+#separador {
+	color: #47B6EA;
+	text-align: center;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	font-size: 150%;
+}
+
+p {
+	text-align: center;
+	color: white;
+
+}
+
+.audiowide-regular {
+	font-family: "Audiowide", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#H {
+	text-align: center;
+	color: white;
+}
+
+
+/*tamaño espacio flyers*/
+.contenedor-imagenes {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.contenedor-imagenes img {
+	max-width: calc(33% - 10px);
+	margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+	.contenedor-imagenes img {
+		max-width: calc(50% - 10px);
+	}
+}
+
+
+
+.formulario {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+}
+
+.formulario h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.formulario label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.formulario input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+
+.formulario button {
+	width: 100%;
+	padding: 10px;
+	background-color: #3b42aa;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+
+/*#h1 {color:#47B6EA; font-family:audiowide; font-size:400%;}/*audiowide font*/
+
+
+.centrado {
+	margin: auto;
+}
+
+.separador {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+.listado_fiestas {
+	color: #FFF;
+	margin:auto;
+	width: 1000px;
+	border: 1px solid cyan;
+	text-align: center;
+}
+
+table.listado_fiestas {
+	background-color: #000c;
+}
+
+tr {
+	padding-bottom: 1rem;
+	border-bottom: 1px solid cyan;
+}
+
+.boton-menu {
+	color: #FFF;
+}
+
+.menu {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: #FFFc;
+	padding: 1rem;
+}
+
+.menu button {
+	padding: 1rem 2rem;
+}
+
+.formulario_registro {
+	color: #FFF;
+	border: 1px solid cyan;
+	margin: auto;
+	width: 600px;
+	background-color: #000c;
+}
+.parrafo {
+	text-align: center;
+	font-size: 25px;
+
+}
+.formulario_evento_nuevo {
+	color: #FFF;
+	border: 1px solid cyan;
+	margin: auto;
+	width: 600px;
+	background-color: #000c;
+}
+.instagram{
+	background-color: #000c;
+	margin: auto;
+	width: 50px;
+
+}
